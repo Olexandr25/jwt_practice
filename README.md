@@ -25,6 +25,7 @@ This is a simple Flask application that demonstrates JWT authentication.
    ```
 
 3. Install the required packages:
+
    ```sh
    pip install -r requirements.txt
    ```
@@ -60,6 +61,7 @@ This is a simple Flask application that demonstrates JWT authentication.
    - Password: `1234`
 
 2. After logging in, you will receive a JWT token. Use this token to access the protected `/auth` endpoint by including it as a query parameter:
+
    ```sh
    curl -H "Authorization: Bearer <your_token>" http://127.0.0.1:5000/auth
    ```
